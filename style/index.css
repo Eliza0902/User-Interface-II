@@ -1,1 +1,56 @@
-/* Add CSS styling here */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+ background-color: cadetblue;
+color: black;
+border: darkblue solid 1px; 
+padding: 1rem; 
+border-radius: 5px;
+height: 3rem;
+width: 6rem; 
+
+}
+a{
+text-decoration: none;
+color: inherit;
+text-align: center;
+}
+button:hover{
+background-color: aliceblue;
+}
+.photoName{
+    display:flex;
+    justify-content: center;
+}
+
+.nameButton{
+    background-image: url("https://picsum.photos/700/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+    font-size: larger;
+    width: 50rem;
+    height: 35rem;
+}
+
+.rows{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.portImg{
+    text-align: center;
+    color: black;
+
+}
+
+footer{
+    background-color: grey;
+    padding: 2rem;
+    text-align: center;
+}
