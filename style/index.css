@@ -175,6 +175,7 @@ links {
   display: flex;
   justify-content: space-evenly;
   width: auto;
+  
 }
 
 button {
@@ -184,6 +185,7 @@ button {
   border-radius: 5px;
   text-align: center;
   padding: 1rem 3rem;
+  margin: 3rem;
 }
 a {
   text-decoration: none;
@@ -203,7 +205,7 @@ button:hover {
   background-image: url("https://picsum.photos/700/400");
   background-repeat: no-repeat;
   background-size: cover;
-  color: aliceblue;
+  color: black;
   font-size: larger;
   width: 75%;
   padding: 15%;
@@ -213,20 +215,26 @@ button:hover {
 }
 .rows {
   display: flex;
-  justify-content: space-evenly;
+  
   flex-direction: row;
-  padding: 2rem;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.row div{
+    width: 30%;
+    margin: 1% 0;
 }
 
 .portImg {
   text-align: center;
   color: black;
+  width: 30%;
 }
 
 footer {
   background-color: grey;
-  padding: 2rem;
+  padding: 2%;
   text-align: center;
 }
 
@@ -250,13 +258,16 @@ footer {
 }
   .rows {
     flex-wrap: wrap;
-    
+    justify-content: center;
     width: 100%;
-
+margin-left: 1% ;
   }
   .portImg{
 width: 45%;
       
 
+  }
+  .topNav button{
+      margin: 0;
   }
 }
